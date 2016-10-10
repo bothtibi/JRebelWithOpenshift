@@ -5,6 +5,8 @@ package com.mkyong.controller;
  */
 public class Counter {
 
+    public static String TEST="TEST";
+
     public int getCounter() {
         return counter;
     }
@@ -19,6 +21,7 @@ public class Counter {
     }
 
     public void increase(){
+        System.out.println("Counter increased");
         counter++;
     }
     private int counter;
