@@ -22,8 +22,6 @@ public class BaseController {
 		model.addAttribute("message", Counter.TEST);
 		model.addAttribute("counter", counter.getCounter());
 		logger.debug("[welcome] counter : {}", counter.getCounter());
-		//Thread myThread = new Thread(new MyThread());
-		//myThread.start();
 		// Spring uses InternalResourceViewResolver and return back index.jsp
 		return VIEW_INDEX;
 
